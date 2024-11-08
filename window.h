@@ -19,7 +19,6 @@ public:
 private slots:
     void toggleIDField(bool checked);
     void togglePasswordField(bool checked);
-    void connect();
 
 private:
     QLineEdit *idLineEdit;
